@@ -26,6 +26,6 @@ The uploader reuses the website repo's incremental deployment approach: only cha
 For manual FTP upload, upload the contents of `dist/` to the calendar document root.
 
 ## Content still to confirm
-The current page retains the existing draft purchase/privacy terms, planned pickup details, price/cost split, and empty Vipps link. Complete these before accepting orders.
+The current page retains the existing draft purchase/privacy terms, planned pickup details, sponsor-funded printing details, and empty Vipps link. Complete these before accepting orders.
 
 Illustrations by [Agnetha](https://aggieampersand.com/); development by [Malo](https://www.linkedin.com/in/malo-grall/).
