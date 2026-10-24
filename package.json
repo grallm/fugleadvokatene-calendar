@@ -1,0 +1,14 @@
+{
+  "name": "fugleadvokatene-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check site/app.js && node --check site/content.js && node --check site/config.js",
+    "deploy": "node scripts/deploy-static.mjs"
+  },
+  "devDependencies": {
+    "basic-ftp": "5.3.1"
+  }
+}
