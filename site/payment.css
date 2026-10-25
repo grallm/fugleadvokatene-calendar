@@ -1,0 +1,40 @@
+#preorder{margin:0 35px 30px;background:#fffdf5;border:1px solid #d1dbce;border-radius:14px;overflow:hidden}#preorder .payment-heading{padding:30px 32px 24px;display:flex;justify-content:space-between;gap:20px;align-items:center}#preorder .payment-heading .eyebrow{font-size:9px;margin-bottom:10px}#preorder .payment-heading h2{font-size:28px;letter-spacing:-.035em;margin:0;font-weight:500}#preorder .vipps-word{font-size:35px;letter-spacing:-2px;font-weight:800;color:#ff5b24}#preorder .payment-layout{display:grid;grid-template-columns:1.25fr 1fr;gap:0}#preorder .order-side{padding:0 32px 28px}#preorder .pay-side{padding:0 30px 28px;border-left:1px solid #dde3d6}#preorder .step-label{display:flex;align-items:center;gap:10px;margin-bottom:16px;font-size:13px}#preorder .step-label>span,#preorder .step-three{display:none}#preorder .quantities{display:flex;gap:8px}#preorder .quantities button{padding:16px 10px;flex:1;min-width:0;border:1px solid #cfd7c9;border-radius:8px;background:transparent;color:inherit;text-align:left}#preorder .quantities button>span{font-size:11px;display:block;margin-bottom:10px}#preorder .quantities strong{font-size:25px;white-space:nowrap;display:block;letter-spacing:-1px}#preorder .quantities small{font-size:12px;letter-spacing:0}#preorder .quantities em{display:block;font-size:9px;font-style:normal;margin-top:12px;line-height:1.5}#preorder .quantities [aria-pressed=true]{background:#dce8d9;border:2px solid #426952;padding:15px 9px}#preorder .message{margin-top:24px}#preorder .message>span{font-size:11px;font-weight:700;display:block;margin-bottom:8px}#preorder .message>div{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px;background:#f0f1e7;border-radius:6px}#preorder .message code{font-family:inherit;font-size:12px}#preorder .message button{border:0;background:transparent;font-size:10px;text-decoration:underline;color:inherit;padding:4px}#preorder .message p{font-size:11px;line-height:1.6;margin:9px 0 0;color:#586d63}#preorder .fulfilment{padding-top:20px;font-size:12px}#preorder .fulfilment p{font-size:11px;line-height:1.6;margin:8px 0}#preorder .fulfilment a{font-size:11px}#preorder .pay-total{margin-bottom:18px}#preorder .pay-total>span{font-size:11px}#preorder .pay-total>strong{display:block;font-size:40px;letter-spacing:-2px;margin:6px 0}#preorder .pay-total small{font-size:18px;letter-spacing:0}#preorder .pay-total p{font-size:10px;margin:0;color:#586d63}#preorder .qr-and-number{display:grid;grid-template-columns:130px 1fr;gap:20px;align-items:center}#preorder .qr-placeholder{background:#fff;border:1px dashed #a1b5a7;border-radius:10px;padding:15px 9px;text-align:center;max-width:180px}#preorder .scan-symbol{height:70px;width:70px;position:relative;display:grid;place-items:center;margin:0 auto 10px;color:#6d8c7a}#preorder .scan-symbol span{font-size:17px;letter-spacing:2px}#preorder .scan-symbol i{position:absolute;width:20px;height:20px;border:3px solid #729482;border-radius:2px}#preorder .scan-symbol i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0}#preorder .scan-symbol i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0}#preorder .scan-symbol i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0}#preorder .scan-symbol i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0}#preorder .qr-placeholder b{font-size:10px;display:block;line-height:1.5}#preorder .qr-placeholder>span{font-size:8px;display:block;margin-top:6px;color:#647a6d}#preorder .number-block>span{font-size:10px;line-height:1.5;display:block}#preorder .number-block strong{font-size:27px;letter-spacing:1px;display:block;margin:7px 0 12px}#preorder .number-block button{background:#ff5b24;color:#241333;border:0;border-radius:6px;padding:11px 12px;font-size:10px;font-weight:700;width:100%}#preorder .number-block p{font-size:10px;line-height:1.6;margin:10px 0 0}#preorder .payment-foot{display:flex;align-items:center;justify-content:space-between;gap:24px;background:#e4ecdf;padding:18px 32px;font-size:10px}#preorder .payment-foot p{margin:0;line-height:1.6;max-width:410px}#preorder .payment-foot>span:last-child{font-size:11px;white-space:nowrap}
+#preorder{margin:20px 0 60px;scroll-margin-top:24px;font-family:Arial,sans-serif}
+#preorder .payment-heading h2{font-size:32px;line-height:1.15}
+#preorder .payment-heading{padding-bottom:28px}
+#preorder .payment-qr{display:block;width:100%;height:auto;background:white;image-rendering:crisp-edges}
+#preorder .qr-placeholder{border:0;padding:8px;max-width:200px}
+#preorder .qr-placeholder>span{font-size:10px;color:#173e38}
+#preorder .qr-and-number{grid-template-columns:165px 1fr;gap:18px}
+#preorder .vipps-instructions{font-size:12px;line-height:1.6;margin:0 0 22px;padding-left:20px}
+#preorder .vipps-instructions li{padding:0 0 8px 5px}
+#preorder .vipps-instructions li:nth-child(2){font-weight:bold}
+#preorder .message code{line-height:1.7;overflow-wrap:anywhere}
+#preorder .message>div{align-items:flex-start}
+#preorder .pay-side{min-width:0}
+#preorder .open-vipps{display:block;background:#ff5b24;color:#241333;text-decoration:none;text-align:center;padding:13px 9px;border-radius:6px;font-size:12px;font-weight:bold;margin-bottom:8px}
+#preorder .number-block button{background:transparent;border:1px solid #9eb5a4;color:#173e38;font-weight:400}
+#preorder>.help-line{display:flex;justify-content:center;align-items:baseline;flex-wrap:wrap;gap:4px 7px;margin:0;padding:12px 20px;border-top:1px solid #d1dbce;font-size:11px;line-height:1.5;color:#586d63;text-align:center}
+#preorder>.help-line p{margin:0}
+#preorder>.help-line a{font-size:inherit;font-weight:400;overflow-wrap:anywhere}
+.hero a.vipps{text-decoration:none;font-size:15px;letter-spacing:0}
+.payment-status{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);border-radius:30px;background:#173e38;color:white;padding:13px 25px;box-shadow:0 4px 20px #0002;font-size:13px;z-index:10;max-width:90%;pointer-events:none}
+.payment-status:empty{display:none}
+@media(max-width:800px){
+#preorder .payment-layout{grid-template-columns:1fr}
+#preorder .order-side,#preorder .pay-side{padding:0 25px 25px}
+#preorder .pay-side{border-left:0;border-top:1px solid #dde3d6;padding-top:24px}
+#preorder .qr-and-number{grid-template-columns:150px 1fr;max-width:450px}
+#preorder .payment-foot>span:last-child{display:none}
+}
+@media(max-width:480px){
+#preorder .payment-heading{padding:24px 18px}
+#preorder .payment-heading h2{font-size:26px}
+#preorder .vipps-word{font-size:27px}
+#preorder .order-side,#preorder .pay-side{padding-left:18px;padding-right:18px}
+#preorder .quantities strong{font-size:22px}
+#preorder .quantities em{font-size:8px}
+#preorder .qr-and-number{grid-template-columns:130px 1fr;gap:12px}
+#preorder .number-block strong{font-size:26px}
+#preorder .payment-foot{padding:16px 18px}
+}

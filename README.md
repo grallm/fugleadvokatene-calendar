@@ -5,7 +5,8 @@ Bilingual Norwegian/English calendar preorder page for https://kalendar.fugleadv
 ## Edit and preview
 - Edit `site/index.html`, `site/style.css`, and translations in `site/content.js`.
 - Images and logos live in `site/assets/`.
-- Set the real HTTPS Vipps payment link in `site/config.js`. An empty link opens the preview dialog.
+- The preorder section uses Vipps number 534731 and its QR code. Edit instructions in `site/content.js` and quantity/message behavior in `site/payment.js`.
+- Bird paintings are shown by default; hover, click/tap, or keyboard activation reveals the original photo. Assets use `*-painting.webp` and matching original WebP filenames.
 - Run `npm ci && npm run check && npm run build`.
 - Preview with `python3 -m http.server 8080 --directory dist`.
 
@@ -25,7 +26,7 @@ The uploader reuses the website repo's incremental deployment approach: only cha
 
 For manual FTP upload, upload the contents of `dist/` to the calendar document root.
 
-## Content still to confirm
-The current page retains the existing draft purchase/privacy terms, planned pickup details, sponsor-funded printing details, and empty Vipps link. Complete these before accepting orders.
+## Order flow
+Customers choose one, two, or three calendars (350 / 500 / 650 NOK), select a one-time payment in Vipps, and enter the amount and a message with quantity, name, and postal address or Oslo pickup. Postage must be agreed before payment. This static page does not process payments or confirm orders automatically.
 
 Illustrations by [Agnetha](https://aggieampersand.com/); development by [Malo](https://www.linkedin.com/in/malo-grall/).

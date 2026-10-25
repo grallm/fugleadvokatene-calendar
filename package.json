@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node --check site/app.js && node --check site/content.js && node --check site/config.js",
+    "check": "node --check site/app.js && node --check site/content.js && node --check site/config.js && node --check site/payment.js && node --check site/bird-compare.js",
     "deploy": "node scripts/deploy-static.mjs"
   },
   "devDependencies": {
