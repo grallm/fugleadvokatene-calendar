@@ -38,3 +38,5 @@
 #preorder .number-block strong{font-size:26px}
 #preorder .payment-foot{padding:16px 18px}
 }
+
+#preorder .payment-intro{padding:0 32px 26px;max-width:760px}#preorder .payment-intro p{font-size:15px;line-height:1.65}#preorder .payment-intro .payment-paper{font-size:12px;margin-top:8px;color:#586d63}@media(max-width:600px){#preorder .payment-intro{padding:0 20px 24px}}
