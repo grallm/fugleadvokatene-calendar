@@ -1,4 +1,4 @@
-# FugleAdvokatene 2027 calendar
+# Fugleadvokatene 2027 calendar
 
 Bilingual Norwegian/English calendar preorder page for https://kalendar.fugleadvokatene.no/.
 
